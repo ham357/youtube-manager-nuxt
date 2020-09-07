@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <TheHeader />
+
     <div class="columns">
       <TheSidebar />
-      <div class="columns content">
-        <Nuxt />
+
+      <div class="column content">
+        <nuxt/>
       </div>
     </div>
   </div>
@@ -13,7 +15,6 @@
 <script>
   import TheHeader from "~/components/TheHeader";
   import TheSidebar from "~/components/TheSidebar";
-
   export default {
     components: {
       TheHeader,
@@ -23,12 +24,11 @@
 </script>
 
 <style scoped>
- #app {
-   min-height: 100vh;
-   background: #FAFAFA;
- }
-
-.columns {
-  min-height: 100vh;
-}
-</style>>
+  #app {
+    min-height: 100vh;
+    background: #FAFAFA;
+  }
+  .columns {
+    min-height: 100vh;
+  }
+</style>
