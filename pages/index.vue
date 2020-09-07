@@ -3,17 +3,24 @@
     <div class="container">
       <div class="block">
         <div class="block video-block" v-for="item in items">
-          <AppVideo :item="item" :video-id="item.id" />
+          <AppVideo
+              :item="item"
+              :video-id="item.id"
+          />
         </div>
       </div>
-    </div>
 
-    <div class="block">
-      <nav class="pagination">
-        <a href.prevent="#" class="pagination-next" @click="loadMore">
-          More
-        </a>
-      </nav>
+      <div class="block">
+        <nav class="pagination">
+          <a
+              href.prevent="#"
+              class="pagination-next"
+              @click="loadMore"
+          >
+            More
+          </a>
+        </nav>
+      </div>
     </div>
   </section>
 </template>
