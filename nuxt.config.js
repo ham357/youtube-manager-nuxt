@@ -36,6 +36,7 @@ export default {
   */
   plugins: [
     '~/plugins/vue-youtube',
+    '~/plugins/cookies-to-state',
   ],
   /*
   ** Auto import components
@@ -55,6 +56,7 @@ export default {
     '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    'cookie-universal-nuxt',
   ],
   /*
   ** Axios module configuration
