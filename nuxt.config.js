@@ -75,6 +75,11 @@ export default {
     baseURL: 'http://localhost:8080/'
   },
 
+  env: {
+    API_KEY: process.env.API_KEY,
+  },
+
+
   proxy: {
     '/api': '/'
   },
