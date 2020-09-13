@@ -65,6 +65,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     'cookie-universal-nuxt',
+    '@nuxtjs/dotenv',
   ],
   /*
   ** Axios module configuration
