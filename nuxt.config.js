@@ -54,8 +54,10 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+ buildModules: ["@nuxtjs/dotenv"],
+ dotenv: {
+   path: process.cwd()
+ },
   /*
   ** Nuxt.js modules
   */
